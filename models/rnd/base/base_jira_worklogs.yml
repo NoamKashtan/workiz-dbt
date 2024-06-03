@@ -1,0 +1,48 @@
+version: 2
+models:
+- name: base_jira_worklogs
+  description: ''
+  columns:
+  - name: worklog_id
+    description: 'Unique identifier for the worklog'
+    tests:
+      - unique    
+      - not_null
+  - name: issue_id
+    description: ''
+  - name: key
+    description: ''
+  - name: worklog_self
+    description: ''
+  - name: author_account_id
+    description: ''
+  - name: author_display_name
+    description: ''
+  - name: author_email_address
+    description: 'Email address of the author'
+    tests:
+      - dbt_expectations.expect_column_values_to_match_regex:
+          regex: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,}$'
+  - name: update_author_account_id
+    description: ''
+  - name: update_author_display_name
+    description: ''
+  - name: update_author_email_address
+    description: ''
+  - name: created
+    description: ''
+  - name: updated
+    description: ''
+  - name: started
+    description: ''
+  - name: time_spent
+    description: ''
+  - name: time_spent_seconds
+    description: ''
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: " > 0"
+  - name: time_spent_in_minutes
+    description: ''
+  - name: row_insert_ts
+    description: ''

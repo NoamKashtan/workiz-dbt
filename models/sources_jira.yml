@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: jira
+    schema: jira
+    tables:
+      - name: issues
+      - name: projects
+      - name: users
+      - name: worklogs
