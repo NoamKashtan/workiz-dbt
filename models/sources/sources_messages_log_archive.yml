@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: messages_log_archive
+    tables:
+      - name: jmessages
+      - name: mycom_activity
+      - name: mycom_messaging

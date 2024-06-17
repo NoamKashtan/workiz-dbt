@@ -1,0 +1,31 @@
+
+version: 2
+
+sources:
+  - name: hubspot
+    tables:
+      - name: calls
+      - name: calls_dispositions
+      - name: companies
+      - name: companies_health_score
+      - name: companies_stable
+      - name: companies_stripe_kyc_state_history
+      - name: contacts
+      - name: deals
+      - name: dispositions
+      - name: emails
+      - name: events
+      - name: forms
+      - name: forms_submissions
+      - name: goal_targets
+      - name: lifecycle_events
+      - name: marketing_emails
+      - name: meetings
+      - name: notes
+      - name: owners
+      - name: pipeline_aggregate
+      - name: pipelines_deals
+      - name: quotes
+      - name: tasks
+      - name: tickets
+      - name: users

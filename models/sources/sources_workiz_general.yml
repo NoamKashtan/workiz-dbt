@@ -1,0 +1,55 @@
+
+version: 2
+
+sources:
+  - name: workiz_general
+    tables:
+      - name: account_billing_profile
+      - name: account_package_logger
+      - name: account_stats
+      - name: accounts
+      - name: activity_latest
+      - name: activity_logins
+      - name: ad_groups
+      - name: addons_info
+      - name: client
+      - name: crm_sync_logger
+      - name: ct_calls
+      - name: ct_numbers_ad_group
+      - name: customfields
+      - name: customreports
+      - name: equipment
+      - name: equipment_logs
+      - name: estimates
+      - name: frame_notes
+      - name: garage_kings_activity
+      - name: general_params
+      - name: images_storage
+      - name: imports
+      - name: installment_payments
+      - name: invoices
+      - name: job_equipment
+      - name: job_items
+      - name: job_payments
+      - name: job_payments_prod_bi
+      - name: job_technitions
+      - name: job_types
+      - name: jobcustomfields
+      - name: jobs
+      - name: legal_business_details
+      - name: mycom_activity
+      - name: object_attributes
+      - name: object_delete_log
+      - name: package_override
+      - name: packages
+      - name: proposals
+      - name: quotas_usage
+      - name: roles
+      - name: state_names
+      - name: stripe_disputes_log
+      - name: task_techs
+      - name: tasks
+      - name: tool_import_log
+      - name: tracking
+      - name: users
+      - name: webform_requests

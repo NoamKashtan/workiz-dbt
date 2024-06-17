@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sunbit_prod
+    tables:
+      - name: sunbit
+      - name: sunbit_payments
+      - name: sunbit_prequalifications

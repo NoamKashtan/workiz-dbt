@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: csv_uploader
+    tables:
+      - name: entities
+      - name: imports
+      - name: supported_entities

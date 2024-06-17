@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: quickbooks
+    tables:
+      - name: connection_records
+      - name: log
+      - name: qbd_user
+      - name: tokens

@@ -1,0 +1,22 @@
+
+version: 2
+
+sources:
+  - name: finance
+    tables:
+      - name: billing_transactions
+      - name: card_readers
+      - name: chargecardstransactions
+      - name: churndayreports
+      - name: inventory_log
+      - name: paymentaccounts
+      - name: payouts
+      - name: readerorders
+      - name: restricted_soon_stripe_accounts
+      - name: sunbit
+      - name: sunbit_payments
+      - name: sunbit_prequalifications
+      - name: transaction_details
+      - name: transactions
+      - name: twilio_usage
+

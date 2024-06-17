@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: stripe
+    tables:
+      - name: account_balance
+      - name: accounts
+      - name: ach_activity_itemized_aggregated
+      - name: activity_itemized
+      - name: application_fees
+      - name: balance_change_from_activity
+      - name: balance_transactions
+      - name: charges
+      - name: charges_search
+      - name: country_specs
+      - name: coupons
+      - name: customers
+      - name: disputes
+      - name: events
+      - name: file_links
+      - name: files
+      - name: invoices
+      - name: payment_intents
+      - name: payouts
+      - name: prices
+      - name: products
+      - name: refunds
+      - name: reviews
+      - name: setup_intents
+      - name: subscriptions
+      - name: tax_itemized
+      - name: transfers
+      - name: value_lists

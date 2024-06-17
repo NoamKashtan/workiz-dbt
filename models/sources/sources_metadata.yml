@@ -1,0 +1,16 @@
+
+version: 2
+
+sources:
+  - name: metadata
+    tables:
+      - name: airflow_control
+      - name: dependencies
+      - name: relations
+      - name: rivery_schedule
+      - name: schedule
+      - name: schedule_update_log
+      - name: sisense_cubes
+      - name: tmp_test1
+      - name: verification_rules
+

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: inventory
+    tables:
+      - name: container
+      - name: container_items
+      - name: inventory_log
+      - name: item

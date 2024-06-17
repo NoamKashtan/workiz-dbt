@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: events
+    tables:
+      - name: advanced_call_logs
+      - name: advanced_call_logs_staging
+      - name: frame_actions_by_user_top_10
+      - name: frame_actions_last_3_month
+      - name: prod
+      - name: prod_partition
+      - name: staging
+      - name: user_local_events
+

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: partners
+    tables:
+      - name: angi_accounts
+      - name: angi_leads
+      - name: porting_requests

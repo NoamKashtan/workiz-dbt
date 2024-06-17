@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: source_bi
+    tables:
+      - name: canada_zip_code
+      - name: cohorts_package_change_relationships
+      - name: dim_date
+      - name: dim_date_new 
+      - name: dim_date_vacations
+      - name: dim_is_organic_source
+      - name: dim_pacing_helper_view
+      - name: dim_public_email_domains
+      - name: fintech_workiz_general_job_payments_legacy_records_airflow
+      - name: fintech_workiz_general_jobs_legacy_records_airflow
+      - name: gtm_contacts_report_data_for_attribution_before_2024
+      - name: gtm_growth_goals
+      - name: gtm_health_score_hubspot_companies_history_data
+      - name: gtm_hubspot_pipilenes_deals_stages_dim
+      - name: gtm_workiz_marketing_all_spend_2023
+      - name: hr_termination_reason
+      - name: pay_back_period_total_spend
+      - name: serial_numbers
+      - name: twilio_error_codes
+      - name: us_and_canada_zip_codes
+      - name: us_zip_codes
+      - name: webinar_attendees_2023
+      - name: workiz_general_account_packager_logger_hist
+      - name: zip_codes

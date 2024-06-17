@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: serviceplan
+    tables:
+      - name: billing_cycle
+      - name: clients_plans
+      - name: service_plans
+      - name: visits

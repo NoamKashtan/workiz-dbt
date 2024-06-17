@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: voice
+    tables:
+      - name: calls_daily_aggragate
+      - name: ct_billing
+      - name: ct_calls_archive
+      - name: ct_config
+      - name: ct_packages
+      - name: flows
+      - name: numbers
+      - name: thumbtack
+      - name: thumbtack_leads
+      - name: twilio_error_logs

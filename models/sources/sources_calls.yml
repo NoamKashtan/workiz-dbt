@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: calls
+    tables:
+      - name: flows
+      - name: numbers_blocked
+      - name: numbers_purchased
+

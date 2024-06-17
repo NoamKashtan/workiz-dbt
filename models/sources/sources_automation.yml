@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: automation
+    schema: automation
+    tables:
+      - name: notifications
+      - name: rules
+

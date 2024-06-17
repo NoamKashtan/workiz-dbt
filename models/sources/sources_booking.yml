@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: booking
+    schema: booking
+    tables:
+      - name: account_settings
+      - name: booking_items_mom
+      - name: status

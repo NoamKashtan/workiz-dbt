@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: intercom
+    tables:
+      - name: companies
+      - name: contacts
+      - name: conversations

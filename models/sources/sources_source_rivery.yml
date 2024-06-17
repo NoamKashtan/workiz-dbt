@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: source_rivery
+    tables:
+      - name: appleads_ads_group_daily_performance
+      - name: bing_ads_daily_performance
+      - name: currency_cadusd
+      - name: facebook_ads_daily_performance
+      - name: github_comments
+      - name: github_commits
+      - name: github_pull_request
+      - name: github_teams
+      - name: google_ads_adgroups
+      - name: google_ads_campaigns
+      - name: google_ads_daily_performance
+      - name: jira_worklogs
+      - name: zendesk_brands
+      - name: zendesk_groups
+      - name: zendesk_organization
+      - name: zendesk_ticket_audits
+      - name: zendesk_ticket_events
+      - name: zendesk_tickets
+      - name: zendesk_tickets_metric_events
+      - name: zendesk_tickets_metrics
+      - name: zendesk_users
+      - name: zendesk_users_group_sales
