@@ -1,0 +1,43 @@
+version: 2
+models:
+- name: base_workiz_general_account_billing_profile
+  description: ''
+  columns:
+  - name: id
+    description: ''
+  - name: account_id
+    description: ''
+  - name: address
+    description: ''
+  - name: city
+    description: ''
+  - name: state
+    description: ''
+  - name: country
+    description: ''
+  - name: zip
+    description: ''
+  - name: expire_date
+    description: ''
+  - name: four_digits
+    description: ''
+  - name: csv
+    description: ''
+  - name: anet_customerProfileId
+    description: ''
+  - name: anet_customerPaymentProfileId
+    description: ''
+  - name: card_type
+    description: ''
+  - name: card_holder_first
+    description: ''
+  - name: card_holder_last
+    description: ''
+  - name: stripe_customer_id
+    description: ''
+  - name: extra_balance
+    description: ''
+  - name: balance_by_type
+    description: ''
+  - name: updated
+    description: ''
