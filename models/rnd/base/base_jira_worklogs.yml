@@ -6,8 +6,8 @@ models:
   - name: worklog_id
     description: 'Unique identifier for the worklog'
     tests:
-      - unique    
-      - not_null
+    - unique
+    - not_null
   - name: issue_id
     description: ''
   - name: key
@@ -21,8 +21,8 @@ models:
   - name: author_email_address
     description: 'Email address of the author'
     tests:
-      - dbt_expectations.expect_column_values_to_match_regex:
-          regex: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,}$'
+    - dbt_expectations.expect_column_values_to_match_regex:
+        regex: '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,}$'
   - name: update_author_account_id
     description: ''
   - name: update_author_display_name
@@ -40,8 +40,8 @@ models:
   - name: time_spent_seconds
     description: ''
     tests:
-      - dbt_utils.expression_is_true:
-          expression: " > 0"
+    - dbt_utils.expression_is_true:
+        expression: " > 0"
   - name: time_spent_in_minutes
     description: ''
   - name: row_insert_ts
